@@ -34,6 +34,14 @@ public class ClassePrincipal {
 			switch(opcao){
 			case 1:
 				System.out.println("Selecionando opção 1");
+				System.out.println("Informe o nome:");
+				String nome = sc.nextLine();
+				System.out.println("Informe o CPF");
+				String cpf = sc.nextLine();
+				System.out.println("Informe o curso");
+				String curso = sc.nextLine();
+				System.out.println("Cadastra nome, cpf e curso");
+				break;
 			case 2:
 				System.out.println("Selecionando opção 2");
 			case 3:
